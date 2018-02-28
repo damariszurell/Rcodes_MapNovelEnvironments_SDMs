@@ -1,5 +1,5 @@
 # 'Predicting to new environments: tools for visualising model behaviour and impacts on mapped distributions'
-# by Damaris Zurell, Jane Elith and Boris Schröder.
+# by Damaris Zurell, Jane Elith and Boris Schroeder.
 # Appendix S1 - artifical species
 # last update 2011-09-29
 
