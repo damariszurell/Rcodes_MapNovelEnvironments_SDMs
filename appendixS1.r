@@ -1,10 +1,10 @@
-# 'Predicting to new environments: tools for visualising model behaviour and impacts on mapped distributions'
+# "Predicting to new environments: tools for visualising model behaviour and impacts on mapped distributions"
 # by Damaris Zurell, Jane Elith and Boris Schroeder.
 # Appendix S1 - artifical species
 # last update 2011-09-29
 
 # example with simulated data:
-# species' occurrence described by species' tolerance to temperature, woodland;
+# species occurrence described by species tolerance to temperature, woodland;
 # three cases with different data coverage of two-dimensional environmental niche:
 # (1) species niche entirely encompassed by data;
 # (2) species niche truncated, i.e. portions of the niche are not represented in data;
@@ -23,19 +23,19 @@ library(boot)
 library(gam)
 library(gbm)
 source("brt.functions.R") #this is extra code provided in Elith et al. (2008) JAnimEcol 77:802-813
-# note that the inflated.response() function will additionally require the package 'lhs' to be installed
+# note that the inflated.response() function will additionally require the package "lhs" to be installed
 
 #********************************************************
 # some functions for creating species data, for evaluation and plotting
 # (this keeps subsequent code for actual analysis much tidier)
-# are contained in 'appendixS1_functions.r'
+# are contained in "appendixS1_functions.r"
 
 source('appendixS1_functions.r')
 # contains following functions:
-# 'species' for creating simulated species;
-# 'myplot' for plotting fitted values along with true response curve
-# 'inflated.response' for plotting inflated response curves
-# 'eo.mask' for calculating environmental overlap
+# "species" for creating simulated species;
+# "myplot" for plotting fitted values along with true response curve
+# "inflated.response" for plotting inflated response curves
+# "eo.mask" for calculating environmental overlap
 
 #****************************************************************************
 # global variables:

@@ -1,5 +1,5 @@
 # 'Predicting to new environments: tools for visualising model behaviour and impacts on mapped distributions'
-# by Damaris Zurell, Jane Elith and Boris Schröder.
+# by Damaris Zurell, Jane Elith and Boris Schroeder.
 # Appendix S1 - accompanying functions
 # last update 2011-09-29
 
@@ -34,7 +34,7 @@ myplot<- function(x,y,main,thresh=F,ylab="Occurrence probability"){
   
 
 #-------------------------------------------------------------------------------
-# plot 'inflated' response curves - 'inflated' partial dependence plots
+# plot inflated response curves - inflated partial dependence plots
 inflated.response=function(object,predictors,select.columns=NULL,label=NULL,len=50,lhsample=100,lwd=1,
     ylab="Occurrence probabilities",method="stat3",disp="all",overlay.mean=T,
     col.curves='grey',col.novel='grey',col.mean='black',lwd.known=2,lwd.mean=2,...){
